@@ -1,0 +1,243 @@
+
+/*每个页面公共css */
+.box::after{
+    content: '';
+    clear: both;/*清除两侧浮动*/
+    display: block;/*转成成一个块元素*/
+    overflow: hidden;
+    visibility: hidden;
+}
+.bgcolor{
+	width: 750rpx;
+	background-color: #f5f5f5;
+	min-height: 100vh;
+}
+.bor-btt{
+	border-bottom: 1px solid #f1f1f1;
+}
+.mac-c{
+	color: #E62129;
+}
+/* 高度 */
+.kw-h-50{
+	height: 50rpx;
+}
+.kw-h-100{
+	height: 100rpx;
+}
+.kw-h-150{
+	height: 150rpx;
+}
+/* flex布局 */
+.kw-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kw-flex-wrap{
+	flex-wrap: wrap;
+}
+.kw-row-between{
+	justify-content: space-between;
+}
+.kw-row-left{
+	justify-content: flex-start;
+}
+.kw-row-right{
+	justify-content: flex-end;
+}
+/* 字号 */
+.kw-font-18{
+	font-size: 18rpx;
+}
+.kw-font-20{
+	font-size: 20rpx;
+}
+.kw-font-22{
+	font-size: 22rpx;
+}
+.kw-font-24{
+	font-size: 24rpx;
+}
+.kw-font-26{
+	font-size: 26rpx;
+}
+.kw-font-28{
+	font-size: 28rpx;
+}
+.kw-font-30{
+	font-size: 30rpx;
+}
+.kw-font-32{
+	font-size: 32rpx;
+}
+.kw-font-34{
+	font-size: 34rpx;
+}
+/* 字体加粗 */
+.kw-weight-300{
+	font-weight: 300;
+}
+.kw-weight-600{
+	font-weight: 600;
+}
+.kw-weight-900{
+	font-weight: 900;
+}
+.kw-weight-bold{
+	font-weight: bold;
+}
+.kw-weight-normal{
+	font-weight: normal;
+}
+/* 外边距 */
+.kw-m-20{
+	margin: 20rpx;
+}
+.kw-m-lr-20{
+	margin: 0rpx 20rpx;
+}
+.kw-m-tb-20{
+	margin: 20rpx 0rpx;
+}
+.kw-m-t-5{
+	margin-top: 5rpx;
+}
+.kw-m-l-5{
+	margin-left: 5rpx;
+}
+.kw-m-r-5{
+	margin-right: 5rpx;
+}
+.kw-m-b-5{
+	margin-bottom: 5rpx;
+}
+.kw-m-t-10{
+	margin-top: 10rpx;
+}
+.kw-m-l-10{
+	margin-left: 10rpx;
+}
+.kw-m-r-10{
+	margin-right: 10rpx;
+}
+.kw-m-b-10{
+	margin-bottom: 10rpx;
+}
+.kw-m-t-15{
+	margin-top: 15rpx;
+}
+.kw-m-l-15{
+	margin-left: 15rpx;
+}
+.kw-m-r-15{
+	margin-right: 15rpx;
+}
+.kw-m-b-15{
+	margin-bottom: 15rpx;
+}
+.kw-m-t-20{
+	margin-top: 20rpx;
+}
+.kw-m-l-20{
+	margin-left: 20rpx;
+}
+.kw-m-r-20{
+	margin-right: 20rpx;
+}
+.kw-m-b-20{
+	margin-bottom: 20rpx;
+}
+.kw-m-t-25{
+	margin-top: 25rpx;
+}
+.kw-m-l-25{
+	margin-left: 25rpx;
+}
+.kw-m-r-25{
+	margin-right: 25rpx;
+}
+.kw-m-b-25{
+	margin-bottom: 25rpx;
+}
+/* 内边距 */
+.kw-p-20{
+	padding: 20rpx;
+}
+
+.kw-p-lr-20{
+	padding:0rpx 20rpx;
+}
+.kw-p-tb-20{
+	padding:20rpx 0rpx;
+}
+.kw-p-t-20{
+	padding-top: 20rpx;
+}
+.kw-p-b-20{
+	padding-bottom: 20rpx;
+}
+.kw-p-r-20{
+	padding-right: 20rpx;
+}
+.kw-p-l-20{
+	padding-left: 20rpx;
+}
+.kw-p-t-5{
+	padding-top: 5rpx;
+}
+.kw-p-b-5{
+	padding-bottom: 5rpx;
+}
+.kw-p-r-5{
+	padding-right: 5rpx;
+}
+.kw-p-l-5{
+	padding-left: 5rpx;
+}
+.kw-p-t-10{
+	padding-top: 10rpx;
+}
+.kw-p-b-10{
+	padding-bottom: 10rpx;
+}
+.kw-p-r-10{
+	padding-right: 10rpx;
+}
+.kw-p-l-10{
+	padding-left: 10rpx;
+}
+.kw-p-t-15{
+	padding-top: 15rpx;
+}
+.kw-p-b-15{
+	padding-bottom: 15rpx;
+}
+.kw-p-r-15{
+	padding-right: 15rpx;
+}
+.kw-p-l-15{
+	padding-left: 15rpx;
+}
+.kw-p-t-25{
+	padding-top: 25rpx;
+}
+.kw-p-b-25{
+	padding-bottom: 25rpx;
+}
+.kw-p-r-25{
+	padding-right: 25rpx;
+}
+.kw-p-l-25{
+	padding-left: 25rpx;
+}
+/* 白色框 */
+.kw-brbcf{
+	border-radius: 20rpx;
+	background-color: #ffffff;
+}
+.kw-bcf{
+	background-color: #ffffff;
+}
+
+
